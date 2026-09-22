@@ -59,7 +59,7 @@
 - Architected a modular Modem BSP test platform (36 classes, 137 checks) with DAG filtering and crash telemetry, running 800+ sessions (1,330+ device-hrs) to offload \~1,060 engineer-hrs, cut triage by 85% (20m to 3m), and catch 17+ defects.
 - Isolated shared-PHY PLL race conditions causing kernel panics during concurrent Wi-Fi/Modem PCIe ASPM (L1/L1.2), building a 400+ case concurrency suite (1,500+ device-hrs) that cut root-cause repro by >98% (>100h to \<2h).
 - Engineered an AT command serial relay (`at_relay`) in 3 days to unblock AT&T and NTN Skylo lab certifications, scaling it into a production Linux userspace daemon with async URC routing across Telephony, QA, and Factory workflows.
-- Modernized Android modem userspace across 80+ CLs—migrating 10+ vendor daemons to Soong and Rust (`rdroidtest`), upgrading logging to AIDL V3 schemas, and adding NVRAM compression (\~90% reduction, preventing 300–500MB logs).
+- Modernized Android modem userspace across 80+ CLs—migrating 10+ vendor daemons to Soong and Rust (`rdroidtest`), upgrading logging to AIDL V3 schemas, and hardening NVRAM reset with a scoped Rust service.
 - Consolidated 8+ out-of-tree WWAN kernel driver repos into a single-tree modular Kbuild architecture with automated presubmits, and spearheaded strict SELinux enforcing mode across 10+ modem daemons with zero disruptions.
 - Standardized Nix/Clangd kernel and Android dev environments (saving 2–3 onboarding days/engineer), built an org-wide 3-way merge tool (`unclash.nvim`), and mapped vendor daemon/PCIe state machines for 3-day userspace bring-up.
 
