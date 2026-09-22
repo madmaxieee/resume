@@ -64,14 +64,14 @@
 - Standardized Nix/Clangd kernel and Android dev environments (saving 2–3 onboarding days/engineer), built an org-wide 3-way merge tool (`unclash.nvim`), and mapped vendor daemon/PCIe state machines for 3-day userspace bring-up.
 
 #work(
-  title: "Frontend Intern",
+  title: "Software Engineering Intern, Frontend",
   location: "Taipei, Taiwan",
-  company: "Appier - Full-Funnel Marketing Made Smarter with AI",
+  company: "Appier",
   dates: dates-helper(start-date: "Nov 2023", end-date: "Mar 2024"),
 )
-- Built a new feature to allow users to configure LINE beacons
-- Cooperated with the backend team to ship the new feature
-- Worked with the product team to resolve bugs for clients
+- Engineered the LINE Beacon configuration UI and workflow in the marketing console for proximity-targeted campaigns
+- Collaborated with backend engineers to integrate RESTful APIs, client state management, and form validation for launch
+- Partnered with product managers to diagnose and resolve client-facing production UI defects across enterprise accounts
 
 == Projects
 
@@ -105,5 +105,5 @@
 == Skills
 
 - *Languages*: C/C++ (C++20), Rust, Go, Python, Lua, TypeScript/JavaScript, Kotlin, Swift, Nix, SQL, Bash/Fish
-- *Systems & Embedded*: Linux Kernel (PCIe ASPM, Runtime PM, Kbuild), Android Platform (AOSP, Soong, AIDL, SELinux)
+- *Systems & Embedded*: Linux Kernel (PCIe ASPM, Runtime PM, Kbuild), Android (AOSP, Soong, AIDL, SELinux, BSP)
 - *Developer Tooling & Web*: Git/Jujutsu, Docker, CMake, Clangd, Neovim API, React, Three.js (GLSL), CI/CD
