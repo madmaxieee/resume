@@ -82,7 +82,8 @@
   url: "github.com/madmaxieee",
 )
 - Built #link("https://github.com/madmaxieee/loglit")[`loglit`] (49 stars, Go), a CLI log highlighter with regex matching and dual-TTY stderr peeking for piped streams
-- Authored #link("https://github.com/madmaxieee/fff-snacks.nvim")[`fff-snacks.nvim`] (39 stars) & #link("https://github.com/madmaxieee/unclash.nvim")[`unclash.nvim`] (22 stars); contributed to #link("https://github.com/dmtrKovalenko/fff")[`fff`] (10.8k stars) & #link("https://github.com/folke/snacks.nvim")[`snacks.nvim`] (8.1k stars)
+- Authored #link("https://github.com/madmaxieee/fff-snacks.nvim")[`fff-snacks.nvim`] (39 stars, 8 forks) and #link("https://github.com/madmaxieee/unclash.nvim")[`unclash.nvim`] (22 stars, 3-way merge conflict manager) in Lua
+- Contributed bug fixes and features upstream to #link("https://github.com/dmtrKovalenko/fff")[`fff`] (10.8k stars), #link("https://github.com/folke/snacks.nvim")[`snacks.nvim`] (8.1k stars), and #link("https://github.com/saghen/blink.pairs")[`blink.pairs`] (296 stars)
 
 #project(
   name: "qsyn - Quantum Circuit Synthesis Framework",
@@ -91,7 +92,8 @@
   url: "github.com/DVLab-NTU/qsyn",
 )
 - Implemented C++20 quantum circuit optimization (198 stars) via ZX-calculus reduction and SAT-based oracle synthesis
-- Maintained the framework across a 5-person team, setting up modern CMake builds and Docker/GitHub Actions CI
+- Co-authored the #link("https://arxiv.org/abs/2405.07197")[IEEE QCE '24 paper (`arXiv:2405.07197`)] and maintained the core library with a 5-member research team
+- Migrated the legacy build system to modern CMake and established automated Docker and GitHub Actions CI/CD
 
 #project(
   name: "Light Dance Editor/Simulator",
@@ -100,10 +102,11 @@
   url: "github.com/NTUEELightDance/LightDance-Editor",
 )
 - Led a 10-member team (240+ commits) to build a full-stack LED choreography editor, control UI, and Docker/ESLint CI
-- Built a Three.js 3D simulator with custom shaders to optimize LED strip rendering and integrated hardware controllers
+- Built a Three.js 3D stage simulator with custom GLSL shaders to optimize real-time LED strip rendering performance
+- Collaborated with backend and embedded hardware teams to integrate live WebSocket controller and server protocols
 
 == Skills
 
 - *Languages*: C/C++ (C++20), Rust, Go, Python, Lua, TypeScript/JavaScript, Kotlin, Swift, Nix, SQL, Bash/Fish
-- *Systems & Embedded*: Linux Kernel (PCIe ASPM, Runtime PM, Kbuild), Android (AOSP, Soong, AIDL, SELinux, BSP)
+- *Systems & Embedded*: Linux Kernel (PCIe ASPM, PM, Kbuild), Android (AOSP, Soong, AIDL, SELinux), Modem BSP
 - *Developer Tooling & Web*: Git/Jujutsu, Docker, CMake, Clangd, Neovim API, React, Three.js (GLSL), CI/CD
