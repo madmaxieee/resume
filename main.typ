@@ -76,15 +76,22 @@
 == Projects
 
 #project(
-  name: "qsyn - An End-to-End Quantum Circuit Synthesis Framework",
+  name: "Open-Source CLI & Neovim Tooling",
+  role: "Creator & Contributor",
+  dates: dates-helper(start-date: "2024", end-date: "Present"),
+  url: "github.com/madmaxieee",
+)
+- Built `loglit` (49 stars, Go), a CLI log highlighter with regex matching and dual-TTY stderr peeking for piped streams
+- Authored `fff-snacks.nvim` (39 stars) & `unclash.nvim` (22 stars); merged PRs to `fff.nvim` (10.8k stars) & `snacks.nvim` (8.1k stars)
+
+#project(
+  name: "qsyn - Quantum Circuit Synthesis Framework",
   role: "Maintainer",
-  dates: dates-helper(start-date: "Aug 2023", end-date: "June 2024"),
+  dates: dates-helper(start-date: "Aug 2023", end-date: "Jun 2024"),
   url: "github.com/DVLab-NTU/qsyn",
 )
-- Implemented quantum circuit optimization via ZX-calculus
-- Cooperated with a team of 5 students to maintain the framework
-- Setup modern cmake build system and CI/CD pipeline with docker and GitHub actions
-- Followed modern C++ coding convention and style guide
+- Implemented C++20 quantum circuit optimization (198 stars) via ZX-calculus reduction and SAT-based oracle synthesis
+- Maintained the framework across a 5-person team, setting up modern CMake builds and Docker/GitHub Actions CI
 
 #project(
   name: "Light Dance Editor/Simulator",
@@ -92,9 +99,7 @@
   dates: dates-helper(start-date: "Nov 2022", end-date: "Mar 2023"),
   url: "github.com/NTUEELightDance/LightDance-Editor",
 )
-- Lead a team of 10 students to develop a full-stack application
-- Designed and built the user interface and implement RWD to provide an elegant and concise layout for the user
-- Built a 3D simulator with Three.js for a more intuitive user experience
-- Collaborated with our backend and hardware team to integrate the controller and the server
+- Led a 10-member team (240+ commits) to build a full-stack LED choreography editor, control UI, and Docker/ESLint CI
+- Built a Three.js 3D simulator with custom shaders to optimize LED strip rendering and integrated hardware controllers
 
 == Skills
