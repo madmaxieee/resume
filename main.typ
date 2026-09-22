@@ -51,25 +51,25 @@
 == Work Experience
 
 #work(
-  title: "Firmware Engineer",
+  title: "Firmware / System Software Engineer",
   location: "New Taipei, Taiwan",
   company: "Google",
   dates: dates-helper(start-date: "Aug 2024", end-date: "Present"),
 )
-- *End-to-End Feature Delivery*: Led the full life cycle of the P0 AT Command Relay feature, providing an emergency workaround in three days to maintain project milestones before implementing a formalized production solution.
-- *Automation & CI/CD*: Developed and automated modem release validation on the LTP platform, identifying multiple critical defects and increasing release efficiency by two hours per cycle.
-- *Infrastructure Modernization*: Spearheaded a major build system migration for the T900 platform, converting over a dozen modules to Soong and resolving P0 infrastructure breakages within 24 hours.
-- *Systems Architecture*: Architected a new driver repository structure to enable automated kernel code updates, eliminating significant manual merge inefficiencies and cross-team bottlenecks.
-- *Technical Leadership*: Mentored engineering teams through technical deep-dive sessions and co-authored foundational documentation that streamlined onboarding for new modem projects.
-- *Cross-Team Collaboration*: Proactively assisted colleagues in resolving complex system bugs and improved team-wide developer productivity by creating standardized development environment configurations.
+- Architected a modular Modem BSP test platform (36 classes, 137 checks) with DAG filtering and crash telemetry, running 800+ sessions (1,330+ device-hrs) to offload \~1,060 engineer-hrs, cut triage by 85% (20m to 3m), and catch 17+ defects.
+- Isolated shared-PHY PLL race conditions causing kernel panics during concurrent Wi-Fi/Modem PCIe ASPM (L1/L1.2), building a 400+ case concurrency suite (1,500+ device-hrs) that cut root-cause repro by >98% (>100h to \<2h).
+- Engineered an AT command serial relay (`at_relay`) in 3 days to unblock AT&T and NTN Skylo lab certifications, scaling it into a production Linux userspace daemon with async URC routing across Telephony, QA, and Factory workflows.
+- Modernized Android modem userspace across 80+ CLs—migrating 10+ vendor daemons to Soong and Rust (`rdroidtest`), upgrading logging to AIDL V3 schemas, and adding NVRAM compression (\~90% reduction, preventing 300–500MB logs).
+- Consolidated 8+ out-of-tree WWAN kernel driver repos into a single-tree modular Kbuild architecture with automated presubmits, and spearheaded strict SELinux enforcing mode across 10+ modem daemons with zero disruptions.
+- Standardized Nix/Clangd kernel and Android dev environments (saving 2–3 onboarding days/engineer), built an org-wide 3-way merge tool (`unclash.nvim`), and mapped vendor daemon/PCIe state machines for 3-day userspace bring-up.
 
 #work(
   title: "Frontend Intern",
   location: "Taipei, Taiwan",
   company: "Appier - Full-Funnel Marketing Made Smarter with AI",
-  dates: dates-helper(start-date: "May 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "Nov 2023", end-date: "Mar 2024"),
 )
-- Built a new feature to allow users to configure Line beacons
+- Built a new feature to allow users to configure LINE beacons
 - Cooperated with the backend team to ship the new feature
 - Worked with the product team to resolve bugs for clients
 
@@ -92,9 +92,9 @@
   dates: dates-helper(start-date: "Nov 2022", end-date: "Mar 2023"),
   url: "github.com/NTUEELightDance/LightDance-Editor",
 )
-- Implemented quantum circuit optimization via ZX-calculus
-- Cooperated with a team of 5 students to maintain the framework
-- Setup modern cmake build system and CI/CD pipeline with docker and GitHub actions
-- Followed modern C++ coding convention and style guide
+- Lead a team of 10 students to develop a full-stack application
+- Designed and built the user interface and implement RWD to provide an elegant and concise layout for the user
+- Built a 3D simulator with Three.js for a more intuitive user experience
+- Collaborated with our backend and hardware team to integrate the controller and the server
 
 == Skills
