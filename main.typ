@@ -81,8 +81,8 @@
   dates: dates-helper(start-date: "2024", end-date: "Present"),
   url: "github.com/madmaxieee",
 )
-- Built `loglit` (49 stars, Go), a CLI log highlighter with regex matching and dual-TTY stderr peeking for piped streams
-- Authored `fff-snacks.nvim` (39 stars) & `unclash.nvim` (22 stars); merged PRs to `fff.nvim` (10.8k stars) & `snacks.nvim` (8.1k stars)
+- Built #link("https://github.com/madmaxieee/loglit")[`loglit`] (49 stars, Go), a CLI log highlighter with regex matching and dual-TTY stderr peeking for piped streams
+- Authored #link("https://github.com/madmaxieee/fff-snacks.nvim")[`fff-snacks.nvim`] (39 stars) & #link("https://github.com/madmaxieee/unclash.nvim")[`unclash.nvim`] (22 stars); contributed to #link("https://github.com/dmtrKovalenko/fff")[`fff`] (10.8k stars) & #link("https://github.com/folke/snacks.nvim")[`snacks.nvim`] (8.1k stars)
 
 #project(
   name: "qsyn - Quantum Circuit Synthesis Framework",
