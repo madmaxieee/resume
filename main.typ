@@ -103,3 +103,7 @@
 - Built a Three.js 3D simulator with custom shaders to optimize LED strip rendering and integrated hardware controllers
 
 == Skills
+
+- *Languages*: C/C++ (C++20), Rust, Go, Python, Lua, TypeScript/JavaScript, Kotlin, Swift, Nix, SQL, Bash/Fish
+- *Systems & Embedded*: Linux Kernel (PCIe ASPM, Runtime PM, Kbuild), Android Platform (AOSP, Soong, AIDL, SELinux)
+- *Developer Tooling & Web*: Git/Jujutsu, Docker, CMake, Clangd, Neovim API, React, Three.js (GLSL), CI/CD
